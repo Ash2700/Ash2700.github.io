@@ -1,4 +1,4 @@
-# Ash2700.github.io
+
 # Movie List
 A simple web application for movie fanatic
 
