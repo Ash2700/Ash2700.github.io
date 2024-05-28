@@ -6,3 +6,5 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+actions-deploy-key
+actions-deploy-key.pub
