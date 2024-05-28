@@ -5,10 +5,10 @@
 # Site
 title: Hexo
 subtitle: ''
-description: ''
+description: 'hi i am Ash. 一個中年對程式興趣的大叔'
 keywords:
-author: John Doe
-language: en
+author: Ash2700
+language: zh-tw
 timezone: ''
 
 # URL
@@ -45,6 +45,7 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -96,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -104,3 +105,22 @@ deploy:
   type: git
   repo: http://github.com/Ash2700/Ash2700.github.io.git
   branch: main
+
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+        title: true
+        date: true
+        path: true
+        text: true
+        raw: false
+        content: false
+        slug: false
+        updated: false
+        comments: false
+        link: false
+        permalink: false
+        excerpt: false
+        categories: false
+        tags: false
